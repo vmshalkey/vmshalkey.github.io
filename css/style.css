@@ -1,4 +1,9 @@
 #profile {
-	width: 3%;
 	height: auto;
+	width: 3%;
+}
+
+#profile {
+	height: 128px;
+	width: 128px;
 }
