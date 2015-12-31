@@ -3,21 +3,21 @@
 <head>
 	<title>Vanessa Codes</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<!--Optimized for mobile-->
+<!--Optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-		<!--Google Icon Fonts-->
+<!--Google Icon Fonts-->
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-		<!--Materialize CSS-->
+<!--Materialize CSS-->
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-		<!--Custom Stylesheet-->
+<!--Custom Stylesheet-->
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+<!-- Navigation Bar -->
 	<div class="navbar-fixed">
 		<nav>
 			<div class="nav-wrapper light-blue">
 				<a href="#!" class="brand-logo center">vmshalkey</a>
-				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#about">About</a></li>
 					<li><a href="#skills">Skills</a></li>
@@ -25,6 +25,8 @@
 					<li><a href="#resume">Resume</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
+<!-- Mobile Menu -->
+				<a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul id="mobile" class="side-nav">
 					<li><a href="#about">About</a></li>
 					<li><a href="#skills">Skills</a></li>
@@ -35,17 +37,18 @@
 			</div>
 		</nav>
 	</div>
-
+<!-- ==== PROFILE HEADER ==== -->
 	<div class="section blue-grey">
 		<div class="container center-align">
 			<div class="row">
-				<img id="profile" class="responsive-img circle" src="images/profile.jpg">
+				<img id="profile" class="responsive-img circle" src="images/dogs.jpg">
 			</div>
 			<div class="row">
-				<h2 class="header center orange-text">Vanessa M. Shalkey</h2>
-				<h5 class="center white-text light">Full Stack Web Developer</h5>
+				<h2 class="header orange-text">Hi! I'm Vanessa</h2>
+				<h5 class="white-text light">Web Application Developer</h5>
 			</div>
-			<div class="row center-align">
+<!-- Social Media Links -->
+			<div class="row">
 				<a href="https://github.com/vmshalkey">
 					<img class="responsive-img" src="images/github-hex.png">
 				</a>
@@ -65,63 +68,146 @@
 			</div>
 		</div>
 	</div>
-
-	<div id="about" class="container section">
-		<div class="row">
-			<h2 class="center blue-text">About Me</h2>
-		</div>
-		<div class="row">
-			<div class="col s4">
-				<div class="center">
-	        		<img class="center responsive-img" src="images/codingdojo.png">
-				</div>
+<!-- ==== ABOUT ME SECTION==== -->
+	<div id="about" class="container section center-align">
+		<h2 class="blue-text">About Me</h2>
+		<p class="flow-text">My name is Vanessa M. Shalkey, and I'm a full-stack web developer. I love gaming, shredding the slopes, and roughing it with my two puppies! Learn more about me in the section below. You can hover over certain words or click on the links to get more information.</p>
+<!-- About Me Logos -->
+		<div class="row valign-wrapper">
+			<div class="col s4 valign">
+	        	<img class="responsive-img" src="images/codingdojo.png">
 			</div>
-			<div class="col s4">
-				<div class="center">
-	        		<img class="center responsive-img" src="images/tfa.png">
-				</div>
+			<div class="col s4 valign">
+	        	<img class="responsive-img" src="images/tfa.png">
 			</div>
-			<div class="col s4">
-				<div class="center">
-	        		<img class="center responsive-img" src="images/pennstate.jpg">
-				</div>
+			<div class="col s4 valign">
+	        	<img class="responsive-img" src="images/pennstate.jpg">
 			</div>
 		</div>
 		<div class="row">
+<!-- Coding Text -->
 			<div class="col s4">
-				<div class="center">
-		        	<p class="center-align flow-text orange-text" style="font-weight: bold">Computer Coding</p>
-	        		<p class="light">I've earned a <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="certification for mastering three stacks">double black belt</span> for web development from <a href="http://www.codingdojo.com/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="14 week, on-site bootcamp">Coding Dojo</a> in <a href="https://www.google.com/maps/place/Coding+Dojo+Seattle/@47.6098114,-122.1965691,15z/data=!4m2!3m1!1s0x0:0x44d6854d8a4c2a7c" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Greater Seattle Area">Bellevue, WA.</a></p>
-					<p class="light">I specialize in writing code for the <a href="https://en.wikipedia.org/wiki/MAMP" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Mac OS X, Apache, MySQL, PHP">MAMP</a>, <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)" class="tooltipped" data-position="top" data-delay="25" data-tooltip="MongoDB, Express.js, Angular.js, Node.js">MEAN</a>, and <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Web App MVC Framework">Ruby on Rails</a> stacks.</p>
-					<p class="light">You can see a breakdown of my <a href="#skills">skills</a> and <a href="#portfolio">samples of my code</a> by clicking on the links or continuing to scroll!</p>
-				</div>
+	        	<p id="sm-header" class="flow-text orange-text">Computer Coding</p>
+        		<p class="light">I've earned a <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="certification for mastering three stacks">double black belt</span> for web development from <a href="http://www.codingdojo.com/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="14 week, on-site bootcamp">Coding Dojo</a> in <a href="https://www.google.com/maps/place/Coding+Dojo+Seattle/@47.6098114,-122.1965691,15z/data=!4m2!3m1!1s0x0:0x44d6854d8a4c2a7c" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Greater Seattle Area">Bellevue, WA.</a></p>
+				<p class="light">I specialize in writing code for the <a href="https://en.wikipedia.org/wiki/MAMP" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Mac OS X, Apache, MySQL, PHP">MAMP</a>, <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)" class="tooltipped" data-position="top" data-delay="25" data-tooltip="MongoDB, Express.js, Angular.js, Node.js">MEAN</a>, and <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Web App MVC Framework">Ruby on Rails</a> stacks.</p>
+				<p class="light">You can see a breakdown of my <a href="#skills">skills</a> and <a href="#portfolio">samples of my code</a> by clicking on the links or continuing to scroll!</p>
 			</div>
+<!-- Teaching Text -->
 			<div class="col s4">
-				<div class="center">
-		        	<p class="center-align flow-text orange-text" style="font-weight: bold">Teaching Experience</p>
-	        		<p class="light">Before coding, I trained with <a href="https://www.teachforamerica.org/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="an AmeriCorps program">Teach For America</a> to teach at <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Title I">public high schools</span> in <a href="https://hawaii.teachforamerica.org/">Hawaii.</a></p>
-					<p class="light">I <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="my first year in TFA">taught</span> <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="AP Lit and 12th grade British Lit">English</span> at <a href="http://www.mckinley.k12.hi.us/">McKinley High School</a> in <a href="https://www.google.com/maps/place/President+William+McKinley+High+School/@21.299001,-157.848237,15z/data=!4m2!3m1!1s0x0:0xef7f1b87104d5f00">Honolulu.</a> As the <a href="https://www.speechanddebate.org/">Speech and Debate</a> Club advisor, I was psyched that every member of our team qualified for the <a href="http://www.hawaiispeechleague.org/">State Tournament!</a></p>
-					<p class="light">At <a href="http://www.kaleoowaianae.com/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Leeward Coast of Oahu">Waianae High School</a> I <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="year 2 in TFA">taught</span> <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Hawaiian History and US Gov">Social Studies</span> and <a href="http://www.hawaiinewsnow.com/story/25601056/waianae-hs-student-harvard-bound-1st-since-1980" class="tooltipped" data-position="top" data-delay="25" data-tooltip="one of my students went to Harvard!">College Prep</a> in the <a href="http://www.newtechnetwork.org/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="students majored in Video Production, Photojournalism, and Graphic Arts">New Tech Academy</a> and <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Special Education Inclusion">English</span> in the Sophomore Academy the following year. Both years I taught in technology equipped classrooms using apps such as <a href="https://www.schoology.com/">Schoology</a>, <a href="http://www.socrative.com/">Socrative</a>, and <a href="https://www.classdojo.com/">ClassDojo</a>.</p>
-				</div>
+	        	<p id="sm-header" class="flow-text orange-text">Teaching Experience</p>
+        		<p class="light">Before coding, I trained with <a href="https://www.teachforamerica.org/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="an AmeriCorps program">Teach For America</a> to teach at <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Title I">public high schools</span> in <a href="https://hawaii.teachforamerica.org/">Hawaii.</a></p>
+				<p class="light">I <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="my first year in TFA">taught</span> <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="AP Lit and 12th grade British Lit">English</span> at <a href="http://www.mckinley.k12.hi.us/">McKinley High School</a> in <a href="https://www.google.com/maps/place/President+William+McKinley+High+School/@21.299001,-157.848237,15z/data=!4m2!3m1!1s0x0:0xef7f1b87104d5f00">Honolulu.</a> As the <a href="https://www.speechanddebate.org/">Speech and Debate</a> Club advisor, I was psyched that every member of our team qualified for the <a href="http://www.hawaiispeechleague.org/">State Tournament!</a></p>
+				<p class="light">At <a href="http://www.kaleoowaianae.com/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="Leeward Coast of Oahu">Waianae High School</a> I <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="year 2 in TFA">taught</span> <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Hawaiian History and US Gov">Social Studies</span> and <a href="http://www.hawaiinewsnow.com/story/25601056/waianae-hs-student-harvard-bound-1st-since-1980" class="tooltipped" data-position="top" data-delay="25" data-tooltip="one of my students went to Harvard!">College Prep</a> in the <a href="http://www.newtechnetwork.org/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="students majored in Video Production, Photojournalism, and Graphic Arts">New Tech Academy</a> and <span class="tooltipped" data-position="top" data-delay="25" data-tooltip="Special Education Inclusion">English</span> in the Sophomore Academy the following year. Both years I taught in technology equipped classrooms using apps such as <a href="https://www.schoology.com/">Schoology</a>, <a href="http://www.socrative.com/">Socrative</a>, and <a href="https://www.classdojo.com/">ClassDojo</a>.</p>
 			</div>
+<!-- College Text -->
 			<div class="col s4">
-				<div class="center">
-		        	<p class="center-align flow-text orange-text" style="font-weight: bold">College Education</p>
-	        		<p class="light">I graduated from <a href="http://www.psu.edu/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="We Are...Penn State!">Penn State</a> in <a href="https://www.google.com/maps/place/Penn+State+University/@40.7981768,-77.8599549,15z/data=!4m2!3m1!1s0x0:0xad3e8e9b56e48269">University Park, PA</a> with a BA in <a href="http://english.la.psu.edu/undergraduate/majors">English</a> and <a href="http://polisci.la.psu.edu/undergraduate/majors-and-minors/political-science-major/view">International Politics.</a></p>
-					<p class="light">As a <a href="https://www.shc.psu.edu/">Schreyer Honors Scholar</a> and a <a href="http://www.la.psu.edu/current-students/undergraduate-students/paterno-fellows">Paterno Fellow</a>, I wrote my senior <a href="https://honors.libraries.psu.edu/paper/14262/">thesis</a> on the confessional and modernist poets.</p>
-					<p class="light">Throughout my four years at PSU, I raced on the <a href="http://www.centredaily.com/news/local/education/penn-state/article42816906.html">Ski Team</a>, rode on the <a href="http://sites.psu.edu/pennstateeqteam/">Equestrian Team</a>, and worked at the <a href="http://www.pennstategolfcourses.com/">Penn State Golf Courses</a>.</p>
-					<br>
-				</div>
+	        	<p id="sm-header" class="flow-text orange-text">College Education</p>
+        		<p class="light">I graduated from <a href="http://www.psu.edu/" class="tooltipped" data-position="top" data-delay="25" data-tooltip="We Are...Penn State!">Penn State</a> in <a href="https://www.google.com/maps/place/Penn+State+University/@40.7981768,-77.8599549,15z/data=!4m2!3m1!1s0x0:0xad3e8e9b56e48269">University Park, PA</a> with a BA in <a href="http://english.la.psu.edu/undergraduate/majors">English</a> and <a href="http://polisci.la.psu.edu/undergraduate/majors-and-minors/political-science-major/view">International Politics.</a></p>
+				<p class="light">As a <a href="https://www.shc.psu.edu/">Schreyer Honors Scholar</a> and a <a href="http://www.la.psu.edu/current-students/undergraduate-students/paterno-fellows">Paterno Fellow</a>, I wrote my senior <a href="https://honors.libraries.psu.edu/paper/14262/">thesis</a> on the confessional and modernist poets.</p>
+				<p class="light">Throughout my four years at PSU, I raced on the <a href="http://www.centredaily.com/news/local/education/penn-state/article42816906.html">Ski Team</a>, rode on the <a href="http://sites.psu.edu/pennstateeqteam/">Equestrian Team</a>, and worked at the <a href="http://www.pennstategolfcourses.com/">Penn State Golf Courses</a>.</p>
 			</div>
 		</div>
+	</div>
+<!-- ==== MY SKILLS SECTION ==== -->
+	<div id="skills" class="container section center-align">
+		<h2 class="blue-text">My Skills</h2>
+		<p class="flow-text">I'm experienced in building projects from the front-end to the back-end. Check out what I know by clicking on the headers below. In addition to polishing my skills, I'm always trying to learn new languages and technologies!</p>
+		<ul class="collapsible popout" data-collapsible="expandable">
+<!-- Languages -->
+			<li>
+				<div class="collapsible-header orange white-text active">Programming Languages</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>PHP</li>
+						<li>JavaScript</li>
+						<li>SQL</li>
+						<li>Bash</li>
+					</ul>
+				</div>
+			</li>
+<!-- Stacks -->
+			<li>
+				<div class="collapsible-header orange white-text">Stacks (Software Bundles)</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>MAMP (with CodeIgniter)</li>
+						<li>MEAN</li>
+						<li>Ruby on Rails</li>
+					</ul>
+				</div>
+			</li>
+<!-- Front-end -->
+			<li>
+				<div class="collapsible-header orange white-text">Front-end Frameworks and Libraries</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>Bootstrap</li>
+						<li>Materialize</li>
+						<li>Express.js</li>
+						<li>Angular JS</li>
+						<li>jQuery</li>
+						<li>AJAX</li>
+						<li>Socket.IO</li>
+					</ul>
+				</div>
+			</li>
+<!-- Databases -->
+			<li>
+				<div class="collapsible-header orange white-text">Databases</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>MySQL</li>
+						<li>MySQL Workbench</li>
+						<li>PostgreSQL</li>
+						<li>SQLite</li>
+						<li>MongoDB</li>
+					</ul>
+				</div>
+			</li>
+<!-- Servers -->
+			<li>
+				<div class="collapsible-header orange white-text">Servers</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>MAMP (Apache)</li>
+						<li>Node.js</li>
+						<li>Mongoose.js</li>
+						<li>Sinatra</li>
+					</ul>
+				</div>
+			</li>
+<!-- Tools -->
+			<li>
+				<div class="collapsible-header orange white-text">Developer Tools</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>Sublime Text</li>
+						<li>Git/GitHub</li>
+						<li>RSPEC</li>
+						<li>Terminal</li>
+					</ul>
+				</div>
+			</li>
+<!-- Concepts -->
+			<li>
+				<div class="collapsible-header orange white-text">Concepts</div>
+				<div class="collapsible-body">
+					<ul>
+						<li>MVC</li>
+						<li>CRUD</li>
+						<li>OOP (Object Oriented Programming)</li>
+						<li>JSON</li>
+						<li>API Integration</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
 	</div>
 
 
 
-		<div id="skills" class="container section">
-			<h1>Skills</h1>
-			<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-		</div>
 
 		<div id="portfolio" class="container section">
 			<div class="row center">

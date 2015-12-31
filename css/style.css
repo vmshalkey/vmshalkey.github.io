@@ -1,9 +1,8 @@
 #profile {
-	height: auto;
-	width: 3%;
+	height: 200px;
+	width: 200px;
 }
 
-#profile {
-	height: 128px;
-	width: 128px;
+#sm-header {
+	font-weight: bold;
 }
