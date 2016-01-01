@@ -7,6 +7,10 @@
 	font-weight: bold;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 /* text label*/
 	/* label focus color */
    .input-field input[type=text]:focus + label {
