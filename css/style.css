@@ -3,12 +3,31 @@
 	width: 200px;
 }
 
-#sm-header {
+.sm-header {
 	font-weight: bold;
 }
 
 .underline {
 	text-decoration: underline;
+}
+
+.resume_links {
+	color: #000;
+	padding-right: 10px;
+}
+
+.margins {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.indent {
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* text label*/
