@@ -7,9 +7,9 @@ Renton, WA 98057
 (808) 421-7908
 vmshalkey@gmail.com
 
-Personal Website:       vmshalkey.github.io
-Code Samples:           github.com/vmshalkey
-Professional Profile:   linkedin.com/in/vmshalkey
+PERSONAL WEBSITE:       vmshalkey.github.io
+CODE SAMPLES:           github.com/vmshalkey
+PROFESSIONAL PROFILE:   linkedin.com/in/vmshalkey
 
 ======================================================================
     Summary
@@ -50,28 +50,17 @@ THE PENNSYLVANIA STATE UNIVERSITY, University Park, PA
     Technical Toolbox
 ======================================================================
 
-WEB FUNDAMENTALS
-    > HTML, CSS
-    > JavaScript, jQuery, AJAX, JSON, APIs
-    > Bootstrap, Materialize
+WEB FUNDAMENTALS:   HTML, CSS, JavaScript, jQuery, AJAX, JSON, APIs,
+                    Bootstrap, Materialize
 
-(L)AMP STACK
-    > MAMP (Apache Server), MySQL, PHP
-    > CodeIgniter
+(L)AMP STACK:       MAMP (Apache Server), MySQL, PHP, CodeIgniter
 
-MEAN STACK
-    > MongoDB/MySQL, ExpressJS, AngularJS, Node.js
-    > Mongoose, Socket.IO
+MEAN STACK:         MongoDB/MySQL, ExpressJS, AngularJS, Node.js,
+                    Mongoose, Socket.IO
 
-RUBY ON RAILS
-    > PostgreSQL, MySQL
-    > TDD, RSPEC
-    > ERB
-    > Sinatra
+RUBY ON RAILS:      PostgreSQL, MySQL, TDD, RSPEC, ERB, Sinatra
 
-DEVELOPER TOOLS
-    > Git, GitHub, Terminal
-    > MVC, CRUD, OOP
+DEVELOPER TOOLS:    Git, GitHub, Terminal, MVC, CRUD, OOP
 
 ======================================================================
     Projects
@@ -105,16 +94,10 @@ TRIVIA GAME, MEAN Stack
 
 {June 2013-July 2015}
 WAIANAE HIGH SCHOOL, Waianae, HI
-    High School English/Language Arts and Social Studies Teacher
+    English/Language Arts and Social Studies Teacher
     (Teach For America Corps Member 2013)
     > Designed standards-based curriculum materials for the Sophomore
       English Department on the Instructional Leaders Team
-    > Taught sophomore English/Language Arts in a special education
-      inclusion setting using internet-based educational tools such as
-      Socrative, Weebly for Education, and Google Apps for Education
-    > Provided Home and Hospital Instruction in English, mathematics,
-      science, and social studies for high school students who were
-      unable to attend classes on the Waianae campus
     > Taught after-school recovery courses for students seeking
       credits in algebra, geometry, trigonometry, and pre-calculus
       using computer-based curricula
@@ -122,14 +105,10 @@ WAIANAE HIGH SCHOOL, Waianae, HI
       through the New Tech Network project-based and technology-
       focused curriculum; students in this class experienced an
       average of 1.6 grade levels of reading growth after one year
-    > Prepared a class of 16 high school seniors for post-high school
-      plans; fifteen of the 16 gained admissions to college, the other
-      enlisted in the military; one student gained admissions to
-      Harvard University and is currently attending
 
 {June 2012-June 2013; June 2014-July 2014}
 PRESIDENT WILLIAM MCKINLEY HIGH SCHOOL, Honolulu, HI
-    High School English/Language Arts Teacher
+    English/Language Arts Teacher
     (Teach For America Corps Member 2012)
     > Taught a summer recovery course for 9th grade English/Language
       Arts using the SpringBoard curriculum from the College Board’s
