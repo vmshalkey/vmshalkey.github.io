@@ -58,7 +58,7 @@ WEB FUNDAMENTALS:   HTML, CSS, JavaScript, jQuery, AJAX, JSON, APIs,
 MEAN STACK:         MongoDB/MySQL, ExpressJS, AngularJS, Node.js,
                     Mongoose, Socket.IO
 
-RUBY ON RAILS:      PostgreSQL, MySQL, TDD, RSPEC, ERB, Sinatra
+RUBY ON RAILS:      PostgreSQL, MySQL, TDD, RSpec, ERB, Sinatra
 
 DEVELOPER TOOLS:    Git, GitHub, Terminal, MVC, CRUD, OOP
 
