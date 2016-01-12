@@ -30,6 +30,13 @@
   padding-right: 150px;
 }
 
+.slider .slides li img {
+  background-color: white;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 /* text label*/
 	/* label focus color */
    .input-field input[type=text]:focus + label {
