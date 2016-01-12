@@ -21,6 +21,11 @@
   padding-right: 100px;
 }
 
+.spacing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .italic {
   font-style: italic;
 }
