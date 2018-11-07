@@ -1,2 +1,2 @@
-# vmshalkey.github.io
-Vanessa Shalkey's online web developer profile and software portfolio.
+# vschalke.github.io
+V Schalke's online web developer profile and software portfolio.
